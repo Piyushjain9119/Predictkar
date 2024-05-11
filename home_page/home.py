@@ -56,7 +56,7 @@ def app():
         
         st.write('This project utilizes historical data on various car attributes such as model year, mileage, brand, and condition to predict the resale price of used cars. By employing regression techniques, it helps prospective buyers and sellers make informed decisions about pricing.')
         st.write("The car price prediction model is a sophisticated algorithm designed to estimate the value of a vehicle based on various features and market trends. ")
-    with col2:
+    # with col2:
       
     
         # image = Image.open("home_page/download.jpeg")

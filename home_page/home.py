@@ -56,24 +56,24 @@ def app():
         
         st.write('This project utilizes historical data on various car attributes such as model year, mileage, brand, and condition to predict the resale price of used cars. By employing regression techniques, it helps prospective buyers and sellers make informed decisions about pricing.')
         st.write("The car price prediction model is a sophisticated algorithm designed to estimate the value of a vehicle based on various features and market trends. ")
-    # with col2:
+    with col2:
       
     
-        # image = Image.open("home_page/download.jpeg")
-        # st.image(image,'')
+        image = Image.open("home_page/download.jpeg")
+        st.image(image,'')
         
        
     st.header(":blue[2.House Price Prediction ]",divider = 'rainbow')
     col3,col4= st.columns(2)
     
-    with col4:
+    # with col4:
         
     
-        st.write('The house price prediction model is an advanced analytical tool that forecasts the value of residential properties based on a multitude of factors. It utilizes machine learning algorithms to analyze historical real estate data, including property features, location attributes, market trends, economic indicators, and demographic information.Using techniques like regression analysis, random forests, or gradient boosting, this model learns complex relationships between housing characteristics (such as size, number of bedrooms, amenities) and their corresponding market values')
+    st.write('The house price prediction model is an advanced analytical tool that forecasts the value of residential properties based on a multitude of factors. It utilizes machine learning algorithms to analyze historical real estate data, including property features, location attributes, market trends, economic indicators, and demographic information.Using techniques like regression analysis, random forests, or gradient boosting, this model learns complex relationships between housing characteristics (such as size, number of bedrooms, amenities) and their corresponding market values')
     
-    with col3:
+    # with col3:
         
 
-        image1 = Image.open("house-middleclass.jpg ")
-        st.image(image1,'')
+    #     image1 = Image.open("house-middleclass.jpg ")
+    #     st.image(image1,'')
     

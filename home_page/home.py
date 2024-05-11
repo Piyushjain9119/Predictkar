@@ -74,6 +74,6 @@ def app():
     with col3:
         
 
-        image = Image.open("home_page/house-middleclass.jpg ")
+        image = Image.open("house-middleclass.jpg ")
         st.image(image,'')
     

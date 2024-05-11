@@ -59,8 +59,8 @@ def app():
     with col2:
       
     
-        image = Image.open("home_page/download.jpeg")
-        st.image(image,'')
+        # image = Image.open("home_page/download.jpeg")
+        # st.image(image,'')
         
        
     st.header(":blue[2.House Price Prediction ]",divider = 'rainbow')
